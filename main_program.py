@@ -1,7 +1,10 @@
-
+from support_functions import add
 
 x = 100
 y = 200
 t = 800
-z = x + y
-print(z)
+
+if __name__ == '__main__':
+
+    z = add(x, y)
+    print(z)
